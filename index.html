@@ -18,11 +18,28 @@ Licence URI: http://www.os-templates.com/template-terms
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
 <style>
   /* Note: Try to remove the following lines to see the effect of CSS positioning */
-  .affix {
-    top: 0.5%;
-    width: 100%;
-    z-index: 9999 !important;
-  }
+
+    .affix {
+        top: 0.5%;
+        width: 100%;
+        z-index: 9999 !important;
+    }
+    .indent{
+        margin-left: 9em;
+    }
+    .colorblack{
+        color: black;
+    }
+    li{
+        font-size: 14px;
+    }
+    .border{
+        font-weight: bolder;
+    }
+    .title{
+        font-size: 16px;
+        color: #55ABDA;
+    }
 
  
   </style>
@@ -104,7 +121,7 @@ Licence URI: http://www.os-templates.com/template-terms
                           <li><a href="dsareport/business_report.html">業務報告</a></li>
                       </ul>
                   </li>
-                  <li><a href="#">學生事務與輔導經費</a></li>
+                  <li><a href="budget.html">學生事務與輔導經費</a></li>
                   <li><a href="rule.html">法規專區</a></li>
                   <li><a href="#">ENGLISH</a></li>
               </ul>
@@ -228,8 +245,8 @@ Licence URI: http://www.os-templates.com/template-terms
                                 <div class="sdb_holder">
                                     <h6>相關連結</h6>
                                     <ul class="nospace quickinfo">
-                                        <li class="clear"><a href="#"><img src="images/demo/80x80.gif" alt=""> Make An Application</a></li>
-                                        <li class="clear"><a href="#"><img src="images/demo/80x80.gif" alt=""> Order A Prospectus</a></li>
+                                        <li class="clear"><a href="https://fjugoldenlearning.wixsite.com/fju-posml"><img src="http://www.dsa.fju.edu.tw/輔大學務處經典學習_LOGO-超連結.png" alt=""> 深耕學習</a></li>
+                                        <li class="clear"><a href="http://stlc.dsa.fju.edu.tw/stlc/fjuline@.html"><img src="http://www.dsa.fju.edu.tw/line@icon.png" alt=""> 輔仁學務LINE@服務網</a></li>
                                     </ul>
                                 </div>
                                
@@ -243,42 +260,78 @@ Licence URI: http://www.os-templates.com/template-terms
                         <div class="two_quarter first">
                             <div class="sdb_holder">
                                 <div class="imgl borderedbox"><img src="images/demo/120x120.gif" alt=""></div>
-                                <p>助學措施</p>
+                                <p class="border title">助學措施</p>
+                                <ol>
+                                    <li class="indent"><a href="http://life.dsa.fju.edu.tw/scholarship.html" class="colorblack">獎助學金</a></li>
+                                    <li class="indent"><a href="http://life.dsa.fju.edu.tw/loan.html" class="colorblack">就學貸款</a></li>
+                                    <li class="indent"><a href="http://life.dsa.fju.edu.tw/fee.html" class="colorblack">就學減免</a></li>
+                                    <li class="indent"><a href="http://eao.dsa.fju.edu.tw/opportunity1.aspx" class="colorblack">工讀機會</a></li>
+                                </ol>
                             </div>
                             
                         </div>
                         <div class="two_quarter">
                             <div class="sdb_holder">
                                 <div class="imgl borderedbox"><img src="images/demo/120x120.gif" alt=""></div>
-                                <p>課外活動</p>
+                                <p class="border title">課外活動</p>
+                                <ol>
+                                    <li class="indent"><a href="http://activity.fju.edu.tw/administration.jsp?labelID=36" class="colorblack">學會社團</a></li>
+                                    <li class="indent"><a href="http://activity.fju.edu.tw/generalServices.jsp?labelID=6" class="colorblack">場地預約</a></li>
+                                    <li class="indent"><a href="http://activity.fju.edu.tw/generalServices.jsp?labelID=5" class="colorblack">器材借用</a></li>
+                                    <li class="indent"><a href="http://activity.fju.edu.tw/networkServices.jsp?labelID=5" class="colorblack">學生活動</a></li>
+                                </ol>
                             </div>
                            
                         </div> 
                         <div class="two_quarter first">
                             <div class="sdb_holder">
                                 <div class="imgl borderedbox"><img src="images/demo/120x120.gif" alt=""></div>
-                                <p>學生校內外安全</p>
+                                <p class="border title">學生校內外安全</p>
+                                <ol>
+                                    <li class="indent"><a href="http://www.dsc.fju.edu.tw/" class="colorblack">學生住宿</a></li>
+                                    <li class="indent"><a href="https://house.nfu.edu.tw/fju" class="colorblack">租屋服務</a></li>
+                                    <li class="indent"><a href="http://smt.dsa.fju.edu.tw/networkServices.jsp?labelID=9" class="colorblack">校園安全</a></li>
+                                    <li class="indent"><a href="http://life.dsa.fju.edu.tw/traffic/" class="colorblack">交通安全專區</a></li>
+                                </ol>
                             </div>
                            
                         </div>
                         <div class="two_quarter">
                             <div class="sdb_holder">
                                 <div class="imgl borderedbox"><img src="images/demo/120x120.gif" alt=""></div>
-                                <p>法令規章意見交流</p>
+                                <p class="border title">法令規章 意見交流</p>
+                                <ol>
+                                    <li class="indent"><a href="http://activity.fju.edu.tw/networkServices.jsp?labelID=4" class="colorblack">學生法規</a></li>
+                                    <li class="indent"><a href="http://140.136.251.66/LoveSchool/Account/Login?ReturnUrl=%2FLoveSchool%2F" class="colorblack">愛校建言</a></li>
+                                    <li class="indent"><a href="mailto:dsa@mail.fju.edu.tw" class="colorblack">學務信相</a></li>
+                                </ol>
                             </div>
                           
                         </div>
                         <div class="two_quarter first">
                             <div class="sdb_holder">
                                 <div class="imgl borderedbox"><img src="images/demo/120x120.gif" alt=""></div>
-                                <p>諮詢輔導</p>
+                                <p class="border title">諮詢輔導</p>
+                                <ol>
+                                    <li class="indent"><a href="http://overseas.fju.edu.tw/" class="colorblack">僑陸生</a></li>
+                                    <li class="indent"><a href="http://rsr.dsa.fju.edu.tw/" class="colorblack">身心障礙生輔導</a></li>
+                                    <li class="indent"><a href="http://eao.dsa.fju.edu.tw/platform.aspx" class="colorblack">職涯諮詢</a></li>
+                                    <li class="indent"><a href="http://www.scc.fju.edu.tw/administration.jsp?labelID=10" class="colorblack">心理諮詢</a></li>
+                                </ol>
                             </div>
 
                         </div>
                         <div class="two_quarter">
                             <div class="sdb_holder">
                                 <div class="imgl borderedbox"><img src="images/demo/120x120.gif" alt=""></div>
-                                <p>其它服務</p>
+                                <p class="border title">其它服務</p>
+                                <ol>
+                                    <li class="indent"><a href="http://life.dsa.fju.edu.tw/file1041205/%E5%AD%B8%E7%94%9F%E7%94%B3%E8%A8%B4%E6%B5%81%E7%A8%8B%E5%9C%96.docx" class="colorblack">學生申訴</a></li>
+                                    <li class="indent"><a href="http://life.dsa.fju.edu.tw/help.html" class="colorblack">急難救助</a></li>
+                                    <li class="indent"><a href="http://life.dsa.fju.edu.tw/insurance.html" class="colorblack">學生團保</a></li>
+                                    <li class="indent"><a href="http://health.dsa.fju.edu.tw/?page=school" class="colorblack">衛教資訊</a></li>
+                                    <li class="indent"><a href="http://life.dsa.fju.edu.tw/army.html" class="colorblack">兵役</a></li>
+                                </ol>
                             </div>
 
                         </div>
@@ -286,17 +339,7 @@ Licence URI: http://www.os-templates.com/template-terms
 
                         <!-- ################################################################################################ -->
                         <!-- ################################################################################################ -->
-                        <div id="twitter" class="group btmspace-30">
-                            <div class="one_quarter first center">
-                                <a href="#">
-                                    <i class="fa fa-twitter fa-3x"></i><br>
-                                    Follow Us On Twitter
-                                </a>
-                            </div>
-                            <div class="three_quarter bold">
-                                <p>Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisi condisse leo sem ac tincidunt nibh quis dui fauctor et donecnibh elis velit <a href="#">@name</a> - 10:15 AM yesterday</p>
-                            </div>
-                        </div>
+                        
                         <!-- ################################################################################################ -->
                         <!-- ################################################################################################ -->
                         <div class="group">
@@ -338,48 +381,7 @@ Licence URI: http://www.os-templates.com/template-terms
         <!-- ################################################################################################ -->
         <!-- ################################################################################################ -->
         <!-- ################################################################################################ -->
-        <div class="wrapper row4">
-            <div class="rounded">
-                <footer id="footer" class="clear">
-                    <!-- ################################################################################################ -->
-                    <div class="one_third first">
-                        <figure class="center">
-                            <img class="btmspace-15" src="images/demo/worldmap.png" alt="">
-                            <figcaption><a href="#">Find Us With Google Maps &raquo;</a></figcaption>
-                        </figure>
-                    </div>
-                    <div class="one_third">
-                        <address>
-                            Long Educational Facility Name<br>
-                            Address Line 2<br>
-                            Town/City<br>
-                            Postcode/Zip<br>
-                            <br>
-                            <i class="fa fa-phone pright-10"></i> xxxx xxxx xxxxxx<br>
-                            <i class="fa fa-envelope-o pright-10"></i> <a href="#">contact@domain.com</a>
-                        </address>
-                    </div>
-                    <div class="one_third">
-                        <p class="nospace btmspace-10">Stay Up to Date With What's Happening</p>
-                        <ul class="faico clear">
-                            <li><a class="faicon-twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="faicon-linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a class="faicon-facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="faicon-flickr" href="#"><i class="fa fa-flickr"></i></a></li>
-                            <li><a class="faicon-rss" href="#"><i class="fa fa-rss"></i></a></li>
-                        </ul>
-                        <form class="clear" method="post" action="#">
-                            <fieldset>
-                                <legend>Subscribe To Our Newsletter:</legend>
-                                <input type="text" value="" placeholder="Enter Email Here&hellip;">
-                                <button class="fa fa-sign-in" type="submit" title="Sign Up"><em>Sign Up</em></button>
-                            </fieldset>
-                        </form>
-                    </div>
-                    <!-- ################################################################################################ -->
-                </footer>
-            </div>
-        </div>
+        
         <!-- ################################################################################################ -->
         <!-- ################################################################################################ -->
         <!-- ################################################################################################ -->
